@@ -2,10 +2,11 @@
 .dropmenu {
 	position: relative;
 	display: inline-block;
+	margin: 0 0;
 }
 .dropbtn {
 	background-color: #4caf50;
-	color: green;
+	color: black;
 	padding: 16px;
 	font-size: 16px;
 	border: none;
@@ -23,9 +24,13 @@
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
+	background-color: #4caf50;
 }
 .dropcontnt:hover a:hover {background-color: #ddd}
 .dropmenu:hover .dropcontnt{display: block}
-.dropmenu:hover .dropbtn {background-color: #3e8e41}
+.dropmenu:hover .dropbtn {background-color: grey}
 
-/*other*/
+/*header margin fix*/
+.horisontal {
+	display: flex;
+}
