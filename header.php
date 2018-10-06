@@ -13,6 +13,9 @@
 		<div class="header-bar">
 			<ul>
 				<li><a href="index.php">Home</a></li>
+				<li><a href="products">Products</a></li>
+				<li><a href="help.php">Help</a></li>
+
 			</ul>
 			<div class="login-div">
 				<form>

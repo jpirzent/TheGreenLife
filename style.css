@@ -270,3 +270,14 @@ header .login-div a:hover {
 	background-color: green;
 	color: black;
 }
+.landing {
+  box-sizing: border-box;
+  color: white;
+  text-align: right;
+  float: left;
+  width: 50%;
+  padding: 5px;
+  content: "";
+  clear: both;
+  display: table;
+}
