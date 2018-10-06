@@ -1,5 +1,4 @@
 /*reset everything from =>http://html5doctor.com/html-5-reset-stylesheet/*/
-*/
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -97,6 +96,25 @@ input, select {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*OUR CODE ================>*/
 body {
 	background-color: #454545;
@@ -106,9 +124,11 @@ a {
 	text-decoration: none;
 }
 
+
+/*Header bar styling*/
 .header-bar {
 	margin: 0 auto;
-	width: 1000px;
+	width: 1850px;
 }
 
 header nav {
@@ -129,8 +149,12 @@ header nav ul li {
 header nav ul li a {
 	font-family: arial;
 	font-size: 18px;
-	color: #fff;
+	color: black;
 	line-height: 63px;
+}
+
+header nav ul li a:hover {
+	color: #ccc;
 }
 
 header .login-div {
@@ -171,7 +195,7 @@ header .login-div form button {
 }
 
 header .login-div form button:hover {
-	background-color: #ccc;
+	color: #ccc;
 }
 
 header .login-div a {
@@ -186,4 +210,63 @@ header .login-div a {
 	color: black;
 	line-height: 63px;
 	cursor: pointer;
+}
+
+header .login-div a:hover {
+	color: #ccc;
+} 
+
+
+/*Header for each page*/
+.header-container {
+	padding-top: 40px;
+}
+
+.header-container h2 {
+	font-family: arial;
+	text-decoration: underline;
+	font-size: 40px;
+	color: green;
+	line-height: 50px;
+	text-align: center;
+}
+
+
+/*styling for Sign-up*/
+.signup-form {
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.signup-form input {
+	width: 90%;
+	height: 4 0px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: whitesmoke;
+	font-family: arial;
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.signup-form button {
+	display: block;
+	width: 30%;
+	height: 30px;
+	margin: 0 auto;
+	border: none;
+	background-color: grey;
+	font-family: arial;
+	font-size: 14px;
+	color: whitesmoke;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.signup-form button:hover {
+	background-color: green;
+	color: black;
 }
