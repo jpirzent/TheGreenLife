@@ -13,6 +13,7 @@
 		<div class="header-bar">
 			<ul>
 				<li><a href="index.php">Home</a></li>
+				<li><a href="products.php">Products</a></li>
 			</ul>
 			<div class="login-div">
 				<form>
