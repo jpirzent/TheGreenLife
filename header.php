@@ -17,13 +17,9 @@
 		<div class="header-bar">
 			<ul>
 				<li><a href="index.php">Home</a></li>
-<<<<<<< HEAD
-				<li><a href="products">Products</a></li>
+				<li><a href="products.php">Products</a></li>
 				<li><a href="help.php">Help</a></li>
 
-=======
-				<li><a href="products.php">Products</a></li>
->>>>>>> cd77b3a04d05aa111255810b6fc84ee139f324ee
 			</ul>
 			<div class="login-div">
 				<?php
