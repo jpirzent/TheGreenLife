@@ -116,6 +116,8 @@ input, select {
 	padding: 16px;
 	font-size: 20px;
 	border: none;
+	cursor: pointer;
+	margin: 0 0;
 }
 .dropcontnt {
 	display: none;
@@ -123,7 +125,6 @@ input, select {
 	background-color: #f1f1f1;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
 }
 .dropcontnt a {
 	color: black;
@@ -131,6 +132,7 @@ input, select {
 	text-decoration: none;
 	display: block;
 	background-color: #4caf50;
+	cursor: pointer;
 }
 .dropcontnt:hover a:hover {background-color: #ddd}
 .dropmenu:hover .dropcontnt{display: block}
@@ -151,4 +153,74 @@ input, select {
 	width: 950px;
 	height: 920px;
 	padding-left: 24%;
+}
+
+
+
+/*login and Signup mods*/
+.login-div {
+	float: right;
+	margin: 0 0;
+}
+
+.login-form {
+	float: right;
+}
+
+.login-input {
+	float: left;
+	width: 140px;
+	height: 30px;
+	padding: 0px 10px;
+	margin-right: 10px;
+	border: none;
+	background-color: #ccc;
+	font-family: Arial;
+	font-size: 15px;
+	color: #111;
+	line-height: 30px;
+}
+
+.login-button {
+	float: right;
+	width: 60px;
+	height: 30px;
+	margin-right: 10px;
+	border: none;
+	background-color: #4caf50;
+	font-family: Arial;
+	font-size: 14px;
+	color: black;
+	cursor: pointer;
+}
+
+.login-a {
+	display: block;
+	width: 60px;
+	height: 30px;
+	border: none;
+	float: right;
+	background-color: #4caf50;
+	font-family: Arial;
+	font-size: 14px;
+	color: #111;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+
+
+/*header stuffs*/
+body {
+	background-color: #202020;
+	display: flex;
+	flex-direction: column;
+}
+h1 {
+	color: green;
+	text-align: center;
+	font-size: 55px;
+	font-family: Arial;
+	text-decoration: underline;
+	margin: 0 auto;
 }
