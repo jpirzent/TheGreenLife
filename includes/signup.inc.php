@@ -4,11 +4,11 @@
 	{
 		include_once 'dbh.inc.php';
 
-		$first = mysqli_real_escape_string($conn, $_POST['first']);
-		$last = mysqli_real_escape_string($conn, $_POST['last']);
-		$email = mysqli_real_escape_string($conn, $_POST['email;']);
-		$uid = mysqli_real_escape_string($conn, $_POST['first']);
-		$pwd = mysqli_real_escape_string($conn, $_POST['first']);
+		$first = $_POST['first'];
+		$last = $_POST['last'];
+		$email = $_POST['email'];
+		$uid = $_POST['uid'];
+		$pwd = $_POST['pwd'];
 
 		//ERROR HANDLERS
 		//=>check for empty fields
@@ -37,10 +37,9 @@
 				}
 				else
 				{
-					$sql = "SELECT FROM users WHERE user_uid='$uid'";
+					$sql = "SELECT * FROM users WHERE user_uid='$uid'";
 					$res = mysqli_query($conn, $sql);
 					$resCheck = mysqli_num_rows($res);
-
 					if ($resCheck > 0)
 					{
 						header("Location: ../signup.php?signup=invalid-username");
