@@ -224,8 +224,8 @@ header .login-div a:hover {
 
 .header-container h2 {
 	font-family: arial;
-	text-decoration: underline;
-	font-size: 40px;
+	text-decoration: none;
+	font-size: 50px;
 	color: green;
 	line-height: 50px;
 	text-align: center;
@@ -476,16 +476,16 @@ header .login-div a:hover {
 
 }
 .smallpics {
-	width: 70%;
+	width: 50%;
 	height: 1500px;
-	left: 15%;
+	left: 25%;
 	top: 20%;
 	position: absolute;
 	border: 1em solid black;
 }
 .pics {
-	width: 12.5%;
-	height: 100px;
+	width: 97%;
+	height: 500px;
 	position: absolute;
 	border: 1em solid black;
 }
