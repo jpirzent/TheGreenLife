@@ -24,7 +24,6 @@
                     echo "<h2>".$row['pr_price']."<h2>";
 					echo "</div>";
 					echo "<a href=\"products/".$row['pr_name'].".php\"><button type=\"buttom\" value\"".$row['pr_name'].">See Product</button></a>";
-                    //echo "<input type=\"button\" value=\"".$row['pr_name']."\" onclick=\"href=".$row['pr_name']."php'\" />";
                     echo "</td>";
                 }
             }

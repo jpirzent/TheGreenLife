@@ -1,7 +1,7 @@
 <?php
     include_once 'header.php';
     include_once 'includes/dbh.inc.php';
-    $sql = "SELECT * FROM products";
+    $sql = "SELECT * FROM products WHERE pr_type='sativa'";
     $query = mysqli_query($conn, $sql);
     $rowcnt = mysqli_num_rows($query);
     $sql = "SELECT * FROM products WHERE pr_type='sativa'";
@@ -22,8 +22,8 @@
                     echo "<div class=\"tbl-p\"><p>".$row['pr_description']."</p></div>";
                     echo "<div class=\"tbl-price\">";
                     echo "<h2>".$row['pr_price']."<h2>";
-                    echo "</div>";
-                    echo "<input type=\"number\" name=\"points\" step=\"1\" placeholder=\"0\">";
+					echo "</div>";
+					echo "<a href=\"products/".$row['pr_name'].".php\"><button type=\"buttom\" value\"".$row['pr_name'].">See Product</button></a>";
                     echo "</td>";
                 }
             }
