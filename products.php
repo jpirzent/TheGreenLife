@@ -3,7 +3,7 @@
 ?>
 
     <div class="cat-sativa">
-        <h1>Catagories</h1>
+        <h1>Categories</h1>
         <ul>
             <a href="all.php">○       All</a><br />
             <a href="sativa.php">○        Sativas</a><br />

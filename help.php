@@ -1,12 +1,13 @@
 <?php
     include_once 'header.php';
 ?>
-<div style="text-align:center;">
-  <h2><br>How to place an order on Green Life</br></h2>
-<button class="collapsible">Make sure you have registered</button>
-<div class="content">
-  <p>You can click on the button that says register near the top right corner. You will be required to fill a registration form, and then you'll be registered.</p>
-</div>
+<div class="help_page">
+  <div style="text-align:center; top:20px; position:absolute;">
+    <h2>How to place an order on Green Life</h2>
+      <button class="collapsible">Make sure you have registered</button>
+      <div class="content">
+        <p>You can click on the button that says register near the top right corner. You will be required to fill a registration form, and then you'll be registered.</p>
+  </div>
 <button class="collapsible">Find your products</button>
 <div class="content">
   <p>If your product does not appear on the home page, you proceed to search for it click on the search button.</p>
@@ -62,7 +63,7 @@
     <div class="content">
       <p>Should your order reach you in a damaged state, we will refund you and send you a similar product for free.</p>
     </div>
-  <!--The following Javascript script allows collapsibles to slide up and down*-->
+</div>
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
