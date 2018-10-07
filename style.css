@@ -224,8 +224,8 @@ header .login-div a:hover {
 
 .header-container h2 {
 	font-family: arial;
-	text-decoration: underline;
-	font-size: 40px;
+	text-decoration: none;
+	font-size: 50px;
 	color: green;
 	line-height: 50px;
 	text-align: center;
@@ -475,6 +475,21 @@ header .login-div a:hover {
 
 .product-div input { /*styling for the scroll-int input*/
 
+}
+
+.smallpics {
+	width: 50%;
+	height: 1500px;
+	left: 29%;
+	top: 30%;
+	position: absolute;
+	border: 1em solid black;
+}
+.pics {
+	width: 98.5%;
+	height: 700px;
+	position: absolute;
+	border: 1em solid black;
 }
 
 
