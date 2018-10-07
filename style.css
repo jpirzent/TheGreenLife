@@ -422,16 +422,52 @@ header .login-div a:hover {
 	text-align: left;
 	outline: none;
 	font-size: 15px;
-  }
-  
-  .active, .collapsible:hover {
+}
+ 
+.active, .collapsible:hover {
 	background-color: #555;
-  }
+}
   
-  .content {
+.content {
 	padding: 0 18px;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 	background-color: #f1f1f1;
-  }
+}
+
+
+/*products styling*/
+.product-div { /*styling for the div*/
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.product-div h1 { /*styling for the heading*/
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+	color: green;
+}
+
+.product-div img { /*styling for the image*/
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	padding-top: 10px;
+	padding-left: 625px;
+	padding-right: 575px;
+}
+
+.pr-desc-p { /*styling for the description*/
+
+}
+
+.pr-price-p { /*styling for the price*/
+
+}
+
+.product-div input { /*styling for the scroll-int input*/
+
+}
