@@ -19,6 +19,9 @@
 			echo "<div><p class=\"pr-desc-p\">".$row['pr_description']."</p></div>";
 			echo "<input type=\"number\" name=\"points\" step=\"1\" placeholder=\"0\">";
 			echo "<div><p class=\"pr-price-p\">".$row['pr_price']."</p></div>";
+			echo '<form action="includes/add_cart.inc.php" method="POST">
+					<button type="submit" name="submit" value="G-13">Add to Cart</button>
+					</form>';
 		}
 	}
 	?>

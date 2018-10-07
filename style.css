@@ -361,6 +361,7 @@ header .login-div a:hover {
 .tbl-div a button:hover {
 	color: black;
 	background-color: green;
+	cursor: pointer;
 }
 
 .tbl-price image:hover {
@@ -413,6 +414,7 @@ header .login-div a:hover {
 .cat-sativa a:hover {
 	color: lightgreen;
 	text-decoration: underline;
+	cursor: pointer;
 }
 .collapsible {
 	background-color: #777;
