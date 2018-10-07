@@ -3,8 +3,6 @@
 ?>
 <div style="text-align:center;">
   <h2><br>How to place an order on Green Life</br></h2>
-    <!---------- xxxxxxxx ------->
-    <h2>Animated Collapsibles</h2>
 <button class="collapsible">Make sure you have registered</button>
 <div class="content">
   <p>You can click on the button that says register near the top right corner. You will be required to fill a registration form, and then you'll be registered.</p>

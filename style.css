@@ -475,3 +475,17 @@ header .login-div a:hover {
 .product-div input { /*styling for the scroll-int input*/
 
 }
+.smallpics {
+	width: 70%;
+	height: 1500px;
+	left: 15%;
+	top: 20%;
+	position: absolute;
+	border: 1em solid black;
+}
+.pics {
+	width: 12.5%;
+	height: 100px;
+	position: absolute;
+	border: 1em solid black;
+}
