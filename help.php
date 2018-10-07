@@ -64,6 +64,7 @@
     <div class="content">
       <p>Should your order reach you in a damaged state, we will refund you and send you a similar product for free.</p>
     </div>
+  <!--The following Javascript script allows collapsibles to slide up and down*-->
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -80,37 +81,6 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
-    <!---------- xxxxxxxx 
-  <h2>Delivery Matters</h2>
-      <ul>
-      <li>How long will it take to receive your order(s)?</li>
-      <li>The cost of delivery</li>
-      <li>Delivery options</li>
-  </ul>
-  <h2>Payment Information</h2>
-    <ul>
-      <li>Which payment options are accepted?</ul>
-      <li>What happens if your payment does not reflect in your account information?</li>
-      <li>Refunds</li>
-    </ul>
-  <h2>Track your order(s)</h2>
-    <ul>
-      <li>What happens if your order doesn't reach you?</li>
-      <li>Waybill number that is needed to track your order</li>
-      <li>Insuarance against your until it gets to you.</li>
-    </ul>
-  <h2>Wishlists</h2>
-    <ul>
-      <li>Creating and managing a wishlist</li>
-      <li>How long an item remain as a wish</li>
-      <li>Discounts on wishlist items</li>
-    </ul>
-  <h6>Gift Vouchers</h6>
-    <ul>
-      <li>Sending a gift voucher</li>
-      <li>Redeeming a gift voucher</li>
-    </ul>
-</div> ------>
 <?php
     include_once 'footer.php';
 ?>
