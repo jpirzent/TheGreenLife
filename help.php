@@ -2,7 +2,7 @@
     include_once 'header.php';
 ?>
 <div class="help_page">
-  <div style="text-align:center; top:20px; position:absolute;">
+  <div style="text-align:center">
     <h2>How to place an order on Green Life</h2>
       <button class="collapsible">Make sure you have registered</button>
       <div class="content">
