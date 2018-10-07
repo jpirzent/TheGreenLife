@@ -450,10 +450,13 @@ header .login-div a:hover {
 }
 
 .product-div h1 { /*styling for the heading*/
-	text-align: center;
-	font-size: 50px;
+	padding-top: 30px;
+	font-family: arial;
 	text-decoration: underline;
+	font-size: 40px;
 	color: green;
+	line-height: 50px;
+	text-align: center;
 }
 
 .product-div img { /*styling for the image*/
@@ -461,16 +464,28 @@ header .login-div a:hover {
 	width: 600px;
 	height: 600px;
 	padding-top: 10px;
-	padding-left: 625px;
-	padding-right: 575px;
+	padding-left: 650px;
+	padding-right: 550px;
 }
 
 .pr-desc-p { /*styling for the description*/
-
+	width: 600px;
+	text-align: center;
+	padding-top: 620px;
+	padding-left: 650px;
+	padding-right: 550px;
 }
 
 .pr-price-p { /*styling for the price*/
-
+	width: 400px;
+	position: absolute;
+	height: 50px;
+	padding-left: 400px;
+	margin-top: -50px;
+	color: darkgreen;
+	text-decoration: underline;
+	font-size: 20px;
+	width: 400px;
 }
 
 .product-div input { /*styling for the scroll-int input*/
