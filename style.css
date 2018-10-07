@@ -345,20 +345,20 @@ header .login-div a:hover {
 	text-decoration-color: red;
 }
 
-.tbl-div input {
+.tbl-div a button {
 	position: relative;
 	margin-top: 310px;
 	margin-right: 40px;
 	font-size: 15px;
-	width: 40px;
-	height: 20px;
-	color: gray;
+	width: 100px;
+	height: 40px;
+	color: green;
 	background-color: whitesmoke;
 	border: none;
 	float: right;
 }
 
-.tbl-div button:hover {
+.tbl-div a button:hover {
 	color: black;
 	background-color: green;
 }
