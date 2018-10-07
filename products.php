@@ -16,12 +16,17 @@
                 echo "<tr>";
                 echo "<td class=\"tbl-div\">";
                 echo "<h1 class=\"tbl-h1\">".$row['pr_name']."</h1>";
-                echo "<img src=".$row['pr_picture']." class=\"tbl-img\" >";
+                echo "<div><img src=".$row['pr_picture']." class=\"tbl-img\" ></div>";
+                echo "<div class=\"tbl-p\"><p>".$row['pr_description']."</p></div>";
+                echo "<div class=\"tbl-price\">";
+                echo "<h2>".$row['pr_price']."<h2>";
+                echo "<button type\"submit\" name=\"submit\">Add to Cart</button>";
+                echo "</div>";
                 echo "</td>";
             }
         }
     ?>
-    <img src="" alt="">
+    <button></button>
     <tr>
         <td>
            <div class="tbldiv">

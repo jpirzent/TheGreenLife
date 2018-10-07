@@ -285,23 +285,53 @@ header .login-div a:hover {
 
 /*table styles*/
 .table-contents {
-	border: 20px black;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .tbl-div {
-	position: relative;
-	height: 400px;
+	height: 450px;
 	width: 60%;
-	border: 1px green;
+	border: 20px black;
+}
+
+.tbl-p {
+	position: absolute;
+	text-align: center;
+	width: 400px;
+	color: black;
+	padding-top: 220px;
+	font-family: Arial;
 }
 
 .tbl-h1 {
 	font-size: 30px;
-	color: green;
+	color: yellow;
 	text-align: center;
 	text-decoration: underline;
+	font-family: Arial;
+}
+
+.tbl-price {
+	width: 400px;
+	position: absolute;
+	height: 50px;
+	padding-top: 310px;
+	color: darkgreen;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.tbl-price h2 {
+	border: none;
+}
+
+.tbl-price button {
+	width: 60px;
+	height: 30px;
+	float: right;
+	color: whitesmoke;
+	background-color: #454545;
 }
 
 .tbl-img {
