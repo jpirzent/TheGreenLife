@@ -323,15 +323,36 @@ header .login-div a:hover {
 }
 
 .tbl-price h2 {
-	border: none;
+	width: 250px;
+	position: relative;
+}
+
+.tbl-price h2:hover {
+	color: red;
+	text-decoration: underline;
+	text-decoration-color: red;
 }
 
 .tbl-price button {
+	position: relative;
+	float: right;
 	width: 60px;
 	height: 30px;
 	float: right;
-	color: whitesmoke;
+	color: gray;
 	background-color: #454545;
+	border: none;
+	float: right;
+}
+
+.tbl-price button:hover {
+	color: black;
+	background-color: green;
+}
+
+.tbl-price image:hover {
+	width: 600px;
+	height: 300px;
 }
 
 .tbl-img {

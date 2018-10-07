@@ -26,14 +26,6 @@
             }
         }
     ?>
-    <button></button>
-    <tr>
-        <td>
-           <div class="tbldiv">
-               
-           </div>
-        </td>
-    </tr>
 </table>
 <?php
     include_once 'footer.php';
