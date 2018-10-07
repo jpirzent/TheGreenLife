@@ -23,7 +23,7 @@
                     echo "<div class=\"tbl-price\">";
                     echo "<h2>".$row['pr_price']."<h2>";
                     echo "</div>";
-                    echo "<input type=\"number\" name=\"points\" step=\"1\" placeholder=\"0\">Add to Cart</button>";
+                    echo "<input type=\"number\" name=\"points\" step=\"1\" placeholder=\"0\">";
                     echo "</td>";
                 }
             }
@@ -33,9 +33,8 @@
             echo "<h1 class=\"else-h1\">Please Login to See Our Products</h1>";
         }
     ?>
+    <button type="submit" name="submit">Add to Cart</button>
 </table>
 <?php
     include_once 'footer.php';
 ?>
-
-<button type\"submit\" name=\"submit\">Add to Cart</button>

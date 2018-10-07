@@ -23,7 +23,7 @@
                     echo "<div class=\"tbl-price\">";
                     echo "<h2>".$row['pr_price']."<h2>";
                     echo "</div>";
-                    echo "<button type\"submit\" name=\"submit\">Add to Cart</button>";
+                    echo "<input type=\"number\" name=\"points\" step=\"1\" placeholder=\"0\">";
                     echo "</td>";
                 }
             }
