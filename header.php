@@ -19,7 +19,7 @@
 				<li><a href="index.php">/Home/</a></li>
 				<li><a href="products.php">/Products/</a></li>
 				<li><a href="help.php">/Help/</a></li>
-
+				<li><a href="shopping-cart.php">/Shopping-Cart/</a></li>
 			</ul>
 			<div class="login-div">
 				<?php

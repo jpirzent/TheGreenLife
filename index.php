@@ -10,6 +10,26 @@
 		<p class="paragraph" >The world's marvelous wonder is xxxxxxxxss</p>
 	</div>
 </section>
+<<<<<<< HEAD
+=======
+
+
+<?php
+	if (isset($_SESSION['u_id']))
+	{
+		echo '<section>';
+		echo '<div class="basket">';
+		echo '<h1>-Shopping Cart-</h1>';
+		echo '<p class="basket-items">Total number of Items: '.$_SESSION['item-total'].'</p>';
+		echo '<p class="basket-cost">Total cost of Items: R '.$_SESSION['basket-total'].'</p>';
+		echo '<a href="shopping-cart.php">Go to Shopping-Cart</a>';
+		echo '</div>';
+		echo '</section>';
+	}
+?>
+
+
+>>>>>>> a6d2e3e193663250d4e29f7956b916b9d1711b63
 <?php
 	include_once 'footer.php';
 ?>
