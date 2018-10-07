@@ -480,13 +480,13 @@ header .login-div a:hover {
 .smallpics {
 	width: 50%;
 	height: 1500px;
-	left: 25%;
+	left: 29%;
 	top: 30%;
 	position: absolute;
 	border: 1em solid black;
 }
 .pics {
-	width: 97%;
+	width: 98.5%;
 	height: 700px;
 	position: absolute;
 	border: 1em solid black;
