@@ -488,9 +488,47 @@ header .login-div a:hover {
 	width: 400px;
 }
 
-.product-div input { /*styling for the scroll-int input*/
-
+.cart-form {
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 30px;
 }
+
+.cart-form input {
+	width: 90%;
+	height: 30px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: whitesmoke;
+	font-family: arial;
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.cart-form button {
+	display: block;
+	width: 30%;
+	height: 30px;
+	margin: 0 auto;
+	border: none;
+	background-color: grey;
+	font-family: arial;
+	font-size: 14px;
+	color: whitesmoke;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.cart-form button:hover {
+	background-color: green;
+	color: black;
+}
+/* 
+.product-div input { /*styling for the scroll-int input*/
+/*
+} */
 
 .smallpics {
 	width: 50%;
