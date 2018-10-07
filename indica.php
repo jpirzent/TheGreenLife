@@ -1,7 +1,7 @@
 <?php
     include_once 'header.php';
     include_once 'includes/dbh.inc.php';
-    $sql = "SELECT * FROM products";
+    $sql = "SELECT * FROM products WHERE pr_type='indica'";
     $query = mysqli_query($conn, $sql);
     $rowcnt = mysqli_num_rows($query);
     $sql = "SELECT * FROM products WHERE pr_type='indica'";
