@@ -531,3 +531,15 @@ header .login-div a:hover {
 	line-height: 50px;
 	text-align: center;
 }
+
+.cart-info {
+	width: 600px;
+	height: 100%;
+	background-color: #ccc;
+}
+
+.cart-info p {
+	text-align: left;
+	padding-top: 10px;
+	color: black;
+}
