@@ -476,6 +476,10 @@ header .login-div a:hover {
 .product-div input { /*styling for the scroll-int input*/
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e3fd6a88b50dd5abdaf6182dbee7fd40e451ed41
 .smallpics {
 	width: 50%;
 	height: 1500px;
@@ -489,6 +493,10 @@ header .login-div a:hover {
 	height: 700px;
 	position: absolute;
 	border: 1em solid black;
+<<<<<<< HEAD
+=======
+}
+>>>>>>> e3fd6a88b50dd5abdaf6182dbee7fd40e451ed41
 
 
 /*Basket*/
@@ -543,4 +551,19 @@ header .login-div a:hover {
 	color: green;
 	line-height: 50px;
 	text-align: center;
+<<<<<<< HEAD
+=======
+}
+
+.cart-info {
+	width: 600px;
+	height: 100%;
+	background-color: #ccc;
+}
+
+.cart-info p {
+	text-align: left;
+	padding-top: 10px;
+	color: black;
+>>>>>>> e3fd6a88b50dd5abdaf6182dbee7fd40e451ed41
 }

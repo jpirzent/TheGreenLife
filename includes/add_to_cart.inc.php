@@ -7,7 +7,7 @@
 		{
 			case "Afghani" :
 				$_SESSION['basket-total'] += ($_GET['points'] * 465.44);
-				$_SESSION['afghani'] += $_GET['points'];
+				$_SESSION['Afghani'] += $_GET['points'];
 				break ;
 
 			case "G-13" :
