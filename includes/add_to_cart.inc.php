@@ -56,7 +56,8 @@
 				break ;
 		}
 		$_SESSION['item-total'] += $_GET['points'];
-
+		header('Location: ../products.php');
+		exit();
 	}
 	else
 	{
