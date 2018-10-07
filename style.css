@@ -398,6 +398,7 @@ header .login-div a:hover {
 }
 
 .cat-sativa h1 {
+	padding-top: 40px;
 	font-family: arial;
 	text-decoration: underline;
 	font-size: 40px;
@@ -519,4 +520,14 @@ header .login-div a:hover {
 	text-align: center;
 	padding-top: 4px;
 	padding-bottom: 13px;
+}
+
+.cart-header {
+	font-family: arial;
+	padding-top: 40px;
+	text-decoration: underline;
+	font-size: 40px;
+	color: green;
+	line-height: 50px;
+	text-align: center;
 }
