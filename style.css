@@ -323,8 +323,7 @@ header .login-div a:hover {
 }
 
 .tbl-price h2 {
-	width: 250px;
-	position: relative;
+	width: 400px;
 }
 
 .tbl-price h2:hover {
@@ -333,11 +332,13 @@ header .login-div a:hover {
 	text-decoration-color: red;
 }
 
-.tbl-price button {
+.tbl-div button {
 	position: relative;
-	float: right;
+	margin-top: 300px;
+	margin-right: 40px;
+	font-size: 15px;
 	width: 60px;
-	height: 30px;
+	height: 40px;
 	float: right;
 	color: gray;
 	background-color: #454545;
@@ -345,7 +346,7 @@ header .login-div a:hover {
 	float: right;
 }
 
-.tbl-price button:hover {
+.tbl-div button:hover {
 	color: black;
 	background-color: green;
 }
@@ -362,11 +363,40 @@ header .login-div a:hover {
 	position: absolute;
 }
 
-.tablerow {
-	text-decoration: underline;
-	font-family: Arial;
-	font-size: 30px;
-	width: 90%;
+.else-h1 {
+	margin-top: 30px;
+	margin-left: auto;
 	color: green;
-	background-color: whitesmoke;
+	text-decoration: underline;
+	margin-right: auto;
+	text-align: center;
+	font-size: 50px;
+	font-family: Arial;
+	font-style: italic;
+}
+
+/*catagories styles*/
+.cat-sativa {
+	font-family: arial;
+	font-size: 30px;
+	color: black;
+	line-height: 63px;
+	border: 1px black;
+}
+
+.cat-sativa h1 {
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+	color: green;
+}
+
+.cat-sativa a {
+	margin-left: 200px;
+	color: darkgrey;
+}
+
+.cat-sativa a:hover {
+	color: lightgreen;
+	text-decoration: underline;
 }
