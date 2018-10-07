@@ -5,7 +5,7 @@
 <h1 class="cart-header">Shopping-Cart</h1>
 
 <?php
-	echo '<div class="cart-info>';
+	echo '<div class="cart-info">';
 	if ($_SESSION['Afghani'] > 0)
 	{
 		echo '<p>';
